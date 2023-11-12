@@ -717,6 +717,11 @@ background-color: #126de4;
  /* Features */
 .feature {
   gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
 }
 
  .feature__heading {
@@ -754,9 +759,9 @@ background-color: #126de4;
     align-self: center;
   }
 }
- /* End Hero Block */
+/* End Hero Block */
 
- /* Domain Block */
+/* Domain Block */
  .block-domain .input-group {
   box-shadow: 0 0 30px 20px #e6ebee;
   border: 0;
@@ -780,9 +785,9 @@ background-color: #126de4;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
  }
- /* End Domain Block */
+/* End Domain Block */
 
- /* Plans Block */
+/* Plans Block */
 .block-plans .grid {
   gap: 8rem 4rem;
 }
@@ -791,4 +796,12 @@ background-color: #126de4;
   max-width: 500px;
   margin: 0 auto;
 }
- /* End Plans Block */
+/* End Plans Block */
+
+/* Features Block */
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
+/* Features Block */

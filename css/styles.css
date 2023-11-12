@@ -714,6 +714,20 @@ background-color: #126de4;
  }
  /* End Navigation Bars */
 
+ /* Features */
+.feature {
+  gap: 4rem 2rem;
+}
+
+ .feature__heading {
+  margin-top: 1rem 0;
+ }
+
+ .feature__image {
+  width: 100%;
+ }
+ /* End Features */
+
  /* Hero Block */
 .hero {
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);

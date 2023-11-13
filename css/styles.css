@@ -631,6 +631,7 @@ background-color: #126de4;
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {

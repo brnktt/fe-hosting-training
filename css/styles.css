@@ -532,6 +532,7 @@ background-color: #126de4;
 
  .testimonial__image > img {
   width: 100%;
+  height: auto;
  }
 
  .testimonial__image > .icon-container {
@@ -747,6 +748,7 @@ background-color: #126de4;
 
  .feature__image {
   width: 100%;
+  height: auto;
  }
  /* End Features */
 
@@ -760,6 +762,7 @@ background-color: #126de4;
 
 .hero__image {
   width: 100%;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -821,8 +824,9 @@ background-color: #126de4;
 /* Features Block */
 
 /* Showcases Block */
-.block-showcase__image > img{
+.block-showcase__image > img {
   width: 100%;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -877,6 +881,7 @@ background-color: #126de4;
 .footer__brand img {
   width: 100%;
   max-width: 230px;
+  height: auto;
 }
 
 .footer__copyright {
